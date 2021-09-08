@@ -1,11 +1,11 @@
 import React from "react";
 
-// import ComplexForm from "./components/ComplexForm";
-import Profile from "./components/Profile";
+// import Profile from "./components/Profile";
+import Counter from "./components/Counter";
 
 function App() {
-  // return <ComplexForm onSubmit={() => {}} onCancel={() => {}} />;
-  return <Profile userName="henry" name="Sung Nam Kim" />;
+  return <Counter />;
+  // return <Profile userName="henry" name="Sung Nam Kim" />;
 }
 
 export default App;
